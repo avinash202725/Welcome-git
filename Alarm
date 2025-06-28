@@ -1,0 +1,17 @@
+import javax.swing.JOptionPane;
+import javax.swing.JFrame; // Optional, for associating the dialog with a frame
+
+public class SwingAlertExample {
+    public static void main(String[] args) {
+        // Simple message dialog
+        JOptionPane.showMessageDialog(null, "This is a simple alert message!");
+
+        // Message dialog associated with a parent frame
+        JFrame frame = new JFrame("My Application");
+        frame.setSize(300, 200);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+
+        JOptionPane.showMessageDialog(frame, "This alert is linked to the frame.", "Important Notice", JOptionPane.INFORMATION_MESSAGE);
+    }
+}
