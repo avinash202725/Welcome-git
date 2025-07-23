@@ -1,6 +1,6 @@
 ---
 - name: First Basic PB
-  host: localhost
+  host: instance-20250722
   tasks:
     - name: Test Connectivity
       ping: null
