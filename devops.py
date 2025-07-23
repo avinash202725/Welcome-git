@@ -1,1 +1,1 @@
-Print "Welcomr to Devops"
+Print "Welcome to Devops"
