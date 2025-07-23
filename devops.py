@@ -1,2 +1,2 @@
-prin ("Welcome to Devops")
-prin ("Welcome to Devops1")
+print ("Welcome to Devops")
+print ("Welcome to Devops1")
